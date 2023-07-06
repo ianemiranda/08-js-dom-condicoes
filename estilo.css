@@ -1,6 +1,6 @@
 body {
      background-color: rgb(117, 117, 226);
-     font: normal 15pt Arial:
+     font: normal 15pt Arial
 }
 
 header {
@@ -18,7 +18,7 @@ section {
      
 }
 div {
-     text-aling: center;
+     text-align: center;
      padding: 8px;
 }
 
