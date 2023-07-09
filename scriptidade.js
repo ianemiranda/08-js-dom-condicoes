@@ -30,12 +30,16 @@ function verificar() {
             gênero = 'Mulher'
             if (idade >=0 && idade < 10) {
                 //criança
+                img.setAttribute('src', 'bebe-menina.png')
               } else if (idade < 21) {
                   //jovem
+                  img.setAttribute('src', 'jovem-mulher.png')
               }else if (idade < 50)  {
                   //adulto
+                  img.setAttribute('src', 'adulto-mulher.png')
               }  else {
                   //idoso
+                  img.setAttribute('src', 'foto-idosa.png')
               }
         }
         res.style.textAlign = 'center'
