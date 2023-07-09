@@ -13,8 +13,6 @@ if (hora >= 0 && hora < 12){
 } else {
     // BOA NOITE!
     img.src = 'fotonoite.png.png'
- }
-
 }
 
-
+  }
