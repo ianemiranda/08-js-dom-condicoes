@@ -19,7 +19,7 @@ function verificar() {
             } else if (idade < 21) {
                 //jovem
                 img.setAttribute('src', 'jovem-homem.png')
-            }else if (idade < 50)  {
+            } else if (idade < 50)  {
                 //adulto
                 img.setAttribute('src', 'adulto-homem.png')
             }  else {
@@ -38,8 +38,8 @@ function verificar() {
                   //idoso
               }
         }
-        res.style.textAling = 'center'
-        res.innerHTML = `Detectamos ${gênero} com ${idade} anos.´
+        res.style.textAlign = 'center'
+        res.innerHTML = `Detectamos ${gênero} com ${idade} anos.`
         res.appendChild(img)
     }
 
